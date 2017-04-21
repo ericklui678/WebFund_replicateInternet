@@ -44,7 +44,7 @@
 
 #body{
     background: linear-gradient(#e4e4e4, #ffffff, #e4e4e4);
-
+    height: 700px;
 }
 
 #leftBar{
@@ -228,13 +228,17 @@
     color: #1b6798;
 }
 
-#rightUpper li{
+#rightUpper ul, ol{
     margin-left: 50px;
     margin-bottom: 10px;
 }
 
+#rightBody li {
+    margin-top: 7px;
+}
+
 #rightBody #client{
-    width: 250px;
+    width: 300px;
     margin-left: 240px;
 }
 
@@ -252,16 +256,38 @@
 }
 
 #rightLower{
-    background-color: red;
+    /*background-color: red;*/
     height: 150px;
     padding-top: 10px;
     padding-left: 3px;
 }
 
 #footer{
-    background-color: orange;
+    padding: 15px;
+    margin-top: 20px;
+    /*background-color: orange;*/
     height: 100px;
-    border-top: 5px solid black;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
+    border-top: 5px solid #0088d8;
+    border-left: 5px solid #0088d8;
+    border-right: 5px solid #0088d8;
+}
+
+#footer img{
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#footerContent{
+    display: inline-block;
+    margin-left: 20px;
+    width: 816px;
+}
+
+#footerContent #italic{
+    font-style: italic;
+}
+
+#footerContent p{
+    margin-top: 10px;
 }
