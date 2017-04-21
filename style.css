@@ -1,0 +1,267 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    width: 1280px;
+    /*background-color: green;*/
+    margin: auto;
+    font-family: sans-serif, serif;
+}
+
+#header{
+    color: #494949;
+    position: relative;
+}
+
+#header img{
+    height: 120px;
+    position: absolute;
+}
+
+#header h1{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 34pt;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-bottom: 15px;
+}
+
+#header span{
+    color: #27669c;
+}
+
+#header h2{
+    color: white;
+    font-size: 26pt;
+    font-weight: 400;
+    background: linear-gradient(#28679d, #5484ab, #28679d);
+    padding: 15px;
+}
+
+#body{
+    background: linear-gradient(#e4e4e4, #ffffff, #e4e4e4);
+
+}
+
+#leftBar{
+    /*background-color: yellow;*/
+    height: 300px;
+    width: 210px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-right: 25px;
+}
+
+#leftBarUpper{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#leftBarUpper h3{
+    margin-top: 10px;
+    font-size: 13pt;
+}
+
+#leftBarUpper p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 11pt;
+    font-weight: bolder;
+}
+
+#leftBarUpper #red{
+    color: #d82d2d;
+}
+
+#leftBarUpper #blue{
+    color: #336fa1;
+}
+
+#leftBarUpper #top{
+    font-size: 14pt;
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(#6297c0, #2a699d);
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px #8c939a;
+}
+
+#leftBarUpper #bottom{
+    font-size: 14pt;
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(#e9a450, #ed7303);
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 17px 10px 17px;
+    box-shadow: 2px 2px 2px #8c939a;
+}
+
+#leftBarLower{
+    position: relative;
+}
+
+#leftBarLower #background{
+    width: 210px;
+    margin-top: 20px;
+}
+
+#leftBarLower p{
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50px;
+}
+
+#leftBarLower #ninja{
+    position: absolute;
+    width: 80px;
+    margin-left: 62px;
+    top: 145px;
+}
+
+#leftBarLower #learn{
+    position: absolute;
+    width: 125px;
+    top: 265px;
+    font-size: 9pt;
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(#76cfde, #0dc1dd);
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 12px 5px 12px;
+    box-shadow: 2px 2px 2px #001124;
+    margin-left: 42px;
+}
+
+#rightBody{
+    /*background-color: blue;*/
+    width: 1035px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#rightHeader{
+    /*background-color: yellow;*/
+    height: 80px;
+}
+
+#rightHeader #DNS {
+    /*background-color: white;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 712px;
+}
+
+#rightHeader #DNS img{
+    width: 25px;
+    display: inline-block;
+}
+
+#rightHeader #DNS span{
+    vertical-align: top;
+    margin-top: 7px;
+    display: inline-block;
+    color: #1b6798;
+}
+
+#rightHeader #phone{
+    height: 50px;
+    /*background-color: blue;*/
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+#rightHeader #phoneInfo{
+    /*background-color: green;*/
+    height: 53px;
+    width: 200px;
+    display: inline-block;
+}
+
+#rightHeader #phoneInfo #hours{
+    /*background-color: blue;*/
+    height: 15px;
+    color: #585858;
+    font-size: 10pt;
+    text-align: right;
+}
+
+#rightHeader #phoneInfo #phoneNumb{
+    /*background-color: red;*/
+    color: #00c1da;
+    height: 40px;
+    font-size: 24pt;
+    font-weight: 600;
+    text-align: right;
+}
+
+#rightHeader #phoneInfo #international{
+    /*background-color: black;*/
+    font-size: 10pt;
+    height: 25px;
+    text-align: right;
+}
+
+#rightUpper{
+    /*background-color: silver;*/
+    height: 180px;
+    width: 1035px;
+    border-top: 1px solid #999999;
+    padding-top: 10px;
+    padding-left: 3px;
+}
+
+.blueHeader{
+    color: #1b6798;
+}
+
+#rightUpper li{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#rightBody #client{
+    width: 250px;
+    margin-left: 240px;
+}
+
+#rightUpper p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.highlightTeal{
+    color: #0097aa;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#rightLower{
+    background-color: red;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 3px;
+}
+
+#footer{
+    background-color: orange;
+    height: 100px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
